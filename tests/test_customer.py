@@ -5,15 +5,19 @@ from movieflix.models.customer import Customer
 class TestCustomer(unittest.TestCase):
 
     def test_should_create_non_premium_customer(self):
-        customer = Customer("Test", False)
+        expected_email = "test@test.com"
 
-        self.assertEqual(customer.get_email(), "Test")
+        customer = Customer(expected_email, False)
+
+        self.assertEqual(customer.get_email(), expected_email)
         self.assertEqual(customer.get_is_premium_subscription(), False)
 
     def test_should_create_premium_customer(self):
-        customer = Customer("Test", True)
+        expected_email = "test@test.com"
 
-        self.assertEqual(customer.get_email(), "Test")
+        customer = Customer(expected_email, True)
+
+        self.assertEqual(customer.get_email(), expected_email)
         self.assertEqual(customer.get_is_premium_subscription(), True)
 
 
