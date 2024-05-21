@@ -20,5 +20,5 @@ For running test execute the command from the project root ,
   **python -m tests**
 
 For running the application ,
-  **Goto the file main.py -> Run the main method / python main.py**
+  **Goto the file main.py -> Run the main method / python3 -m movieflix.main**
 
