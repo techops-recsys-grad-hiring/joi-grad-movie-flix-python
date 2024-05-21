@@ -17,7 +17,7 @@ Customers are classified as below,
 ### Local Development:
 
 For running test execute the command from the project root ,
-  **python -m tests**
+  **python -m unittest**
 
 For running the application ,
   **Goto the file main.py -> Run the main method / python3 -m movieflix.main**
