@@ -9,7 +9,7 @@ class TestPlan(unittest.TestCase):
 
         actual_charges = Plan.BASIC.charges()
 
-        self.assertEquals(expected_charges, actual_charges)
+        self.assertEqual(expected_charges, actual_charges)
 
 
 if __name__ == '__main__':

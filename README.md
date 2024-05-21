@@ -17,8 +17,8 @@ Customers are classified as below,
 ### Local Development:
 
 For running test execute the command from the project root ,
-  **./gradlew test**
+  **python -m tests**
 
 For running the application ,
-  **Goto the file MovieFlix.java -> Run the main method**
+  **Goto the file main.py -> Run the main method / python main.py**
 
